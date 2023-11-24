@@ -9,10 +9,9 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <HelloWorld :msg="$t('You did it!')" />
-  
       <nav>
         <RouterLink to="/">{{$t('Home')}}</RouterLink>
-        <RouterLink to="/about">{{$t('About')}}</RouterLink>
+        <RouterLink to="/demo">{{$t('Demo')}}</RouterLink>
       </nav>
     </div>
   </header>
