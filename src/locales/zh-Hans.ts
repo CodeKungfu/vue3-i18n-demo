@@ -1,0 +1,4 @@
+export default {
+    "Home": "首页",
+    "About": "关于"
+}
