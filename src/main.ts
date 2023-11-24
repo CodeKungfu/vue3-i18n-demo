@@ -8,6 +8,7 @@ import language from './locales'
 
 const app = createApp(App)
 app.use(createI18n({
+    legacy: false,
     locale: 'zh-Hans', // custom logic
     messages:language,
     globalInjection: true
